@@ -1,1 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    background-color: blanchedalmond;
+    margin-top: 80px;
+}
 
+.blackLine, .button{
+    border: solid 5px black;
+    border-radius: 30px;
+}
+
+#main{
+    width: 400px;
+    height: 580px;
+    padding: 20px;
+}
+
+#screen{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(10, 10, 10, 0.2);
+}
+
+.screenFace{
+    display: flex;
+    justify-content: center;
+}
+
+.eye{
+    width: 3px;
+    height: 12px;
+    border: solid 3px black;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+}
+
+#pad{
+    height: 420px;
+    margin-top: 20px;
+    padding: 10px;
+ 
+}
+
+#pad, .egaldiv>div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.line, .egaldiv {
+    display: flex;
+    justify-content: space-between;
+}
+.egaldiv > div{
+    width: 284px;
+    height: 165px;
+}
+
+.button, .egaldiv > div > .line > .button, #input{
+    width: 80px;
+    height: 70px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+#zero{
+    width: 180px;
+}
+#egal{
+    height: 150px;
+    width: 80px;
+}
+
+
+#imgBox{
+    position: relative;
+    top : -230px;
+    left: -100px;
+    height: 400px;
+}
+img{
+    width: 300px;
+    height: 330px;
+
+}
+
+#input{
+    margin-left: 90px;
+    position: relative;
+    top: -230px;
+}
